@@ -2,7 +2,7 @@
 
 ![Mise à jour automatique du README](https://github.com/LC-BONNET/exemple-readme-auto/actions/workflows/update-readme.yml/badge.svg)
 
-> [Calendrier]️ Généré automatiquement le 2025-03-22
+> [Calendrier]️ Généré automatiquement le 2025-03-21
 
 ![Stars](https://img.shields.io/github/stars/LC-BONNET/exemple-readme-auto?style=social)
 ![Forks](https://img.shields.io/github/forks/LC-BONNET/exemple-readme-auto?style=social)
@@ -55,18 +55,13 @@
 
 Voici les dernières mises à jour du projet :
 
-- [Note] Mise à jour automatique du README (aedf934)
-- [Bug] Remplacement de l'emoji [Téléchargement] incompatible avec LaTeX (568fbca)
-- [Bug] Remplacement de l'emoji [Téléchargement] incompatible avec LaTeX (c064ff7)
-- [Note] Mise à jour automatique du README (ab729f7)
-- [Validé] Mise à jour complète du README avec export HTML + PDF (b3e0487)
+Aucun commit trouvé.
 
 ---
 
 ## [Contributeurs {#contributeurs}] Contributeurs
 
-- [LC-BONNET](https://github.com/LC-BONNET) (14 contributions)
-- [actions-user](https://github.com/actions-user) (3 contributions)
+Aucun contributeur trouvé.
 
 ---
 
@@ -90,7 +85,7 @@ Aucune licence détectée.
 
 ---
 
-## [Fichier] Télécharger les versions du README {#télécharger-le-readme} {#télécharger-le-readme}
+## [Fichier] Télécharger les versions du README {#telecharger-readme} {#télécharger-le-readme}
 
 [![Télécharger HTML](https://img.shields.io/badge/README-HTML-blue?logo=html5)](./README.html) [![Télécharger PDF](https://img.shields.io/badge/README-PDF-red?logo=adobeacrobatreader)](./README.pdf)
 
