@@ -3,6 +3,8 @@ name: Update README Automatically
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "0 4 * * *"  # Tous les jours à 4h du matin UTC
 
 jobs:
   update-readme:

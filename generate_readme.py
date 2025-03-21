@@ -38,6 +38,7 @@ def generate_readme():
 
     content = (
 f"# 📁 {GITHUB_REPO}\n\n"
+f"![Mise à jour automatique du README](https://github.com/{GITHUB_USER}/{GITHUB_REPO}/actions/workflows/update-readme.yml/badge.svg)\n\n"
 f"> 🗓️ Généré automatiquement le {current_date}\n\n"
 f"![Stars](https://img.shields.io/github/stars/{GITHUB_USER}/{GITHUB_REPO}?style=social)\n"
 f"![Forks](https://img.shields.io/github/forks/{GITHUB_USER}/{GITHUB_REPO}?style=social)\n"

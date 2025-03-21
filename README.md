@@ -1,5 +1,7 @@
 # 📁 exemple-readme-auto
 
+![Mise à jour automatique du README](https://github.com/LC-BONNET/exemple-readme-auto/actions/workflows/update-readme.yml/badge.svg)
+
 > 🗓️ Généré automatiquement le 2025-03-21
 
 ![Stars](https://img.shields.io/github/stars/LC-BONNET/exemple-readme-auto?style=social)
