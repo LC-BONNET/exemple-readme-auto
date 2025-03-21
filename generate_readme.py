@@ -43,8 +43,8 @@ def add_explicit_anchors(content):
         "Utilisation": "utilisation",
         "TODO": "todo",
         "Licence": "licence",
-        "Télécharger le PDF": "télécharger-le-pdf",
-        "Télécharger les versions du README": "télécharger-le-readme"
+        "Télécharger le PDF": "telecharger-le-pdf",
+        "Télécharger les versions du README": "telecharger-readme"
     }
     for title, anchor in mapping.items():
         pattern = rf"(##\s+.*?{title})"
