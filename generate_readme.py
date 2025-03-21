@@ -27,7 +27,7 @@ def replace_emojis(content):
         "📝": "[Note]", "📜": "[Document]", "👥": "[Contributeurs]", "🚀": "[Lancement]",
         "✅": "[Validé]", "📄": "[Fichier]", "🐛": "[Bug]", "✨": "[Amélioration]",
         "🔧": "[Correction]", "🔑": "[Clé]", "💻": "[Ordinateur]", "🛠": "[Outil]",
-        "💾": "[Sauvegarde]"
+        "💾": "[Sauvegarde]", "📥": "[Téléchargement]"
     }
     for emoji, text in emoji_dict.items():
         content = content.replace(emoji, text)
@@ -42,7 +42,8 @@ def add_explicit_anchors(content):
         "Contributeurs": "contributeurs",
         "Utilisation": "utilisation",
         "TODO": "todo",
-        "Licence": "licence"
+        "Licence": "licence",
+        "Télécharger le PDF": "télécharger-le-pdf"
     }
     for title, anchor in mapping.items():
         pattern = rf"(##\s+.*?{title})"
@@ -134,7 +135,8 @@ def generate_readme():
         "- [👥 Contributeurs](#contributeurs)\n"
         "- [🚀 Utilisation](#utilisation)\n"
         "- [✅ TODO](#todo)\n"
-        "- [📄 Licence](#licence)\n\n"
+        "- [📄 Licence](#licence)\n"
+        "- [📄 Télécharger le PDF](#télécharger-le-pdf)\n\n"
         "---\n\n"
         "## 📂 Structure du projet\n"
         "```\n"
@@ -169,6 +171,9 @@ def generate_readme():
         "---\n\n"
         "## 📄 Licence\n\n"
         f"{license_text}\n\n"
+        "---\n\n"
+        "## 📄 Télécharger le PDF {#télécharger-le-pdf}\n\n"
+        "📥 Vous pouvez télécharger une version PDF de ce README [ici](./README.pdf).\n\n"
         "---\n\n"
         "*Ce fichier README a été généré automatiquement avec 💻 Python.* 🛠️\n"
     )

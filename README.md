@@ -2,7 +2,7 @@
 
 ![Mise à jour automatique du README](https://github.com/LC-BONNET/exemple-readme-auto/actions/workflows/update-readme.yml/badge.svg)
 
-> [Calendrier]️ Généré automatiquement le 2025-03-21
+> [Calendrier]️ Généré automatiquement le 2025-03-22
 
 ![Stars](https://img.shields.io/github/stars/LC-BONNET/exemple-readme-auto?style=social)
 ![Forks](https://img.shields.io/github/forks/LC-BONNET/exemple-readme-auto?style=social)
@@ -23,6 +23,7 @@
 - [[Lancement] Utilisation](utilisation)
 - [[Validé] TODO](todo)
 - [[Fichier] Licence](licence)
+- [[Fichier] Télécharger le PDF](#télécharger-le-pdf)
 
 ---
 
@@ -53,11 +54,11 @@
 
 Voici les dernières mises à jour du projet :
 
-- [Validé] Mise à jour complète du README avec export HTML + PDF (b3e0487)
 - [Note] Mise à jour automatique du README (1aa0d80)
 - [Sauvegarde] Sauvegarde avant rebase (7183bc9)
 - [Bug] Correction des emojis et hyperliens dans LaTeX (07e65d3)
 - [Bug] Fix installation de requests pour GitHub Actions (1070ec0)
+- [Amélioration] Ajout du changelog, contributeurs et badges (942606f)
 
 ---
 
@@ -85,6 +86,12 @@ Ajoutez ici les instructions pour lancer ou tester le projet.
 ## [Fichier] Licence {#licence}
 
 Aucune licence détectée.
+
+---
+
+## [Fichier] Télécharger le PDF {#télécharger-le-pdf} {#télécharger-le-pdf}
+
+[Téléchargement] Vous pouvez télécharger une version PDF de ce README [ici](./README.pdf).
 
 ---
 
