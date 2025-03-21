@@ -8,8 +8,9 @@
 ![Forks](https://img.shields.io/github/forks/LC-BONNET/exemple-readme-auto?style=social)
 ![Issues](https://img.shields.io/github/issues/LC-BONNET/exemple-readme-auto)
 ![GitHub contributors](https://img.shields.io/github/contributors/LC-BONNET/exemple-readme-auto)
-
 ![Dernière mise à jour](https://img.shields.io/github/last-commit/LC-BONNET/exemple-readme-auto)
+![Langage principal](https://img.shields.io/github/languages/top/LC-BONNET/exemple-readme-auto)
+![Langages utilisés](https://img.shields.io/github/languages/count/LC-BONNET/exemple-readme-auto)
 
 ---
 
@@ -17,6 +18,8 @@
 
 - [📂 Structure du projet](#-structure-du-projet)
 - [📝 Description des fichiers](#-description-des-fichiers)
+- [📜 Changelog](#-changelog)
+- [👥 Contributeurs](#-contributeurs)
 - [🚀 Utilisation](#-utilisation)
 - [✅ TODO](#-todo)
 - [📄 Licence](#-licence)
@@ -44,6 +47,26 @@
 
 ---
 
+## 📜 Changelog
+
+Voici les dernières mises à jour du projet :
+
+- 🔧 Ajout du badge contributeurs et dernière mise à jour (5158d9a)
+- 🔑 Activation des permissions GitHub Actions pour push (31b3833)
+- 🔧 Correction du workflow GitHub Actions (ba39c86)
+- 📝 Update (554ba73)
+- 📝 Ajout du README généré automatiquement (867e235)
+
+---
+
+## 👥 Contributeurs
+
+Merci aux contributeurs du projet :
+
+- [LC-BONNET](https://github.com/LC-BONNET) (7 contributions)
+
+---
+
 ## 🚀 Utilisation
 
 Ajoutez ici les instructions pour lancer ou tester le projet.
@@ -60,7 +83,7 @@ Ajoutez ici les instructions pour lancer ou tester le projet.
 
 ## 📄 Licence
 
-Ajoutez ici les détails de la licence du projet (MIT, GPL, etc.)
+Aucune licence détectée.
 
 ---
 

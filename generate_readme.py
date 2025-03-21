@@ -1,4 +1,5 @@
 import os
+import requests
 from datetime import datetime
 
 # Configuration
@@ -13,6 +14,32 @@ DESCRIPTIONS = {
     ".gitignore": "Fichiers ignorés par Git.",
 }
 
+# 🔹 Fonction pour récupérer les 5 derniers commits du repo
+def get_latest_commits(user, repo, count=5):
+    url = f"https://api.github.com/repos/{user}/{repo}/commits"
+    response = requests.get(url)
+    if response.status_code == 200:
+        commits = response.json()[:count]
+        return [f"- {commit['commit']['message']} ({commit['sha'][:7]})" for commit in commits]
+    return ["Aucun commit trouvé."]
+
+# 🔹 Fonction pour détecter la licence du projet
+def detect_license():
+    if os.path.exists("LICENSE"):
+        with open("LICENSE", "r", encoding="utf-8") as f:
+            return f.readline().strip()
+    return "Aucune licence détectée."
+
+# 🔹 Fonction pour récupérer les contributeurs
+def get_contributors(user, repo):
+    url = f"https://api.github.com/repos/{user}/{repo}/contributors"
+    response = requests.get(url)
+    if response.status_code == 200:
+        contributors = response.json()
+        return [f"- [{c['login']}]({c['html_url']}) ({c['contributions']} contributions)" for c in contributors]
+    return ["Aucun contributeur trouvé."]
+
+# 🔹 Fonction pour générer l'arborescence du projet
 def generate_tree_structure(path='.', prefix=''):
     tree = ''
     files = sorted(os.listdir(path))
@@ -32,9 +59,13 @@ def generate_tree_structure(path='.', prefix=''):
             tree += generate_tree_structure(full_path, prefix + extension)
     return tree
 
+# 🔹 Fonction principale pour générer le README
 def generate_readme():
     current_date = datetime.now().strftime('%Y-%m-%d')
     structure = generate_tree_structure()
+    latest_commits = get_latest_commits(GITHUB_USER, GITHUB_REPO)
+    license_text = detect_license()
+    contributors = get_contributors(GITHUB_USER, GITHUB_REPO)
 
     content = (
 f"# 📁 {GITHUB_REPO}\n\n"
@@ -43,12 +74,16 @@ f"> 🗓️ Généré automatiquement le {current_date}\n\n"
 f"![Stars](https://img.shields.io/github/stars/{GITHUB_USER}/{GITHUB_REPO}?style=social)\n"
 f"![Forks](https://img.shields.io/github/forks/{GITHUB_USER}/{GITHUB_REPO}?style=social)\n"
 f"![Issues](https://img.shields.io/github/issues/{GITHUB_USER}/{GITHUB_REPO})\n"
-f"![GitHub contributors](https://img.shields.io/github/contributors/{GITHUB_USER}/{GITHUB_REPO})\n\n"
-f"![Dernière mise à jour](https://img.shields.io/github/last-commit/{GITHUB_USER}/{GITHUB_REPO})\n\n"
+f"![GitHub contributors](https://img.shields.io/github/contributors/{GITHUB_USER}/{GITHUB_REPO})\n"
+f"![Dernière mise à jour](https://img.shields.io/github/last-commit/{GITHUB_USER}/{GITHUB_REPO})\n"
+f"![Langage principal](https://img.shields.io/github/languages/top/{GITHUB_USER}/{GITHUB_REPO})\n"
+f"![Langages utilisés](https://img.shields.io/github/languages/count/{GITHUB_USER}/{GITHUB_REPO})\n\n"
 "---\n\n"
 "## 🧭 Sommaire\n\n"
 "- [📂 Structure du projet](#-structure-du-projet)\n"
 "- [📝 Description des fichiers](#-description-des-fichiers)\n"
+"- [📜 Changelog](#-changelog)\n"
+"- [👥 Contributeurs](#-contributeurs)\n"
 "- [🚀 Utilisation](#-utilisation)\n"
 "- [✅ TODO](#-todo)\n"
 "- [📄 Licence](#-licence)\n\n"
@@ -69,6 +104,14 @@ f"{structure}"
 
     content += (
 "\n---\n\n"
+"## 📜 Changelog\n\n"
+"Voici les dernières mises à jour du projet :\n\n"
++ "\n".join(latest_commits) + "\n\n"
+"---\n\n"
+"## 👥 Contributeurs\n\n"
+"Merci aux contributeurs du projet :\n\n"
++ "\n".join(contributors) + "\n\n"
+"---\n\n"
 "## 🚀 Utilisation\n\n"
 "Ajoutez ici les instructions pour lancer ou tester le projet.\n\n"
 "---\n\n"
@@ -78,7 +121,7 @@ f"{structure}"
 "- [ ] Ajouter un fichier de configuration\n\n"
 "---\n\n"
 "## 📄 Licence\n\n"
-"Ajoutez ici les détails de la licence du projet (MIT, GPL, etc.)\n\n"
+f"{license_text}\n\n"
 "---\n\n"
 "*Ce fichier README a été généré automatiquement avec 💻 Python.* 🛠️\n"
     )
