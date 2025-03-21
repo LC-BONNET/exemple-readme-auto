@@ -1,0 +1,1 @@
+<script complet déjà donné ci-dessus>

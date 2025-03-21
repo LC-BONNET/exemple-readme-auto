@@ -1,0 +1,3 @@
+# Exemple de dépendances
+# numpy
+# flask
