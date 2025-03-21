@@ -7,7 +7,9 @@
 ![Stars](https://img.shields.io/github/stars/LC-BONNET/exemple-readme-auto?style=social)
 ![Forks](https://img.shields.io/github/forks/LC-BONNET/exemple-readme-auto?style=social)
 ![Issues](https://img.shields.io/github/issues/LC-BONNET/exemple-readme-auto)
-![Last Commit](https://img.shields.io/github/last-commit/LC-BONNET/exemple-readme-auto)
+![GitHub contributors](https://img.shields.io/github/contributors/LC-BONNET/exemple-readme-auto)
+
+![Dernière mise à jour](https://img.shields.io/github/last-commit/LC-BONNET/exemple-readme-auto)
 
 ---
 
