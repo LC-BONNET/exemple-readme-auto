@@ -43,7 +43,8 @@ def add_explicit_anchors(content):
         "Utilisation": "utilisation",
         "TODO": "todo",
         "Licence": "licence",
-        "Télécharger le PDF": "télécharger-le-pdf"
+        "Télécharger le PDF": "télécharger-le-pdf",
+        "Télécharger les versions du README": "télécharger-le-readme"
     }
     for title, anchor in mapping.items():
         pattern = rf"(##\s+.*?{title})"
@@ -136,7 +137,8 @@ def generate_readme():
         "- [🚀 Utilisation](#utilisation)\n"
         "- [✅ TODO](#todo)\n"
         "- [📄 Licence](#licence)\n"
-        "- [📄 Télécharger le PDF](#télécharger-le-pdf)\n\n"
+        "- [📄 Télécharger le PDF](#télécharger-le-pdf)\n"
+        "- [📄 Télécharger les versions du README](#télécharger-le-readme)\n\n"
         "---\n\n"
         "## 📂 Structure du projet\n"
         "```\n"
@@ -172,8 +174,9 @@ def generate_readme():
         "## 📄 Licence\n\n"
         f"{license_text}\n\n"
         "---\n\n"
-        "## 📄 Télécharger le PDF {#télécharger-le-pdf}\n\n"
-        "📥 Vous pouvez télécharger une version PDF de ce README [ici](./README.pdf).\n\n"
+        "## 📄 Télécharger les versions du README {#télécharger-le-readme}\n\n"
+        "[![Télécharger HTML](https://img.shields.io/badge/README-HTML-blue?logo=html5)](./README.html) "
+        "[![Télécharger PDF](https://img.shields.io/badge/README-PDF-red?logo=adobeacrobatreader)](./README.pdf)\n\n"
         "---\n\n"
         "*Ce fichier README a été généré automatiquement avec 💻 Python.* 🛠️\n"
     )
