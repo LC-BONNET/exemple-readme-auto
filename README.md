@@ -53,11 +53,11 @@
 
 Voici les dernières mises à jour du projet :
 
+- [Validé] Mise à jour complète du README avec export HTML + PDF (b3e0487)
 - [Note] Mise à jour automatique du README (1aa0d80)
 - [Sauvegarde] Sauvegarde avant rebase (7183bc9)
 - [Bug] Correction des emojis et hyperliens dans LaTeX (07e65d3)
 - [Bug] Fix installation de requests pour GitHub Actions (1070ec0)
-- [Amélioration] Ajout du changelog, contributeurs et badges (942606f)
 
 ---
 
