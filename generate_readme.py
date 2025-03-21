@@ -26,7 +26,8 @@ def replace_emojis(content):
         "📁": "[Dossier]", "🗓": "[Calendrier]", "🧭": "[Boussole]", "📂": "[Répertoire]",
         "📝": "[Note]", "📜": "[Document]", "👥": "[Contributeurs]", "🚀": "[Lancement]",
         "✅": "[Validé]", "📄": "[Fichier]", "🐛": "[Bug]", "✨": "[Amélioration]",
-        "🔧": "[Correction]", "🔑": "[Clé]", "💻": "[Ordinateur]", "🛠": "[Outil]"
+        "🔧": "[Correction]", "🔑": "[Clé]", "💻": "[Ordinateur]", "🛠": "[Outil]",
+        "💾": "[Sauvegarde]"
     }
     for emoji, text in emoji_dict.items():
         content = content.replace(emoji, text)
