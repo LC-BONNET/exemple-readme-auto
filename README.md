@@ -55,17 +55,18 @@
 
 Voici les dernières mises à jour du projet :
 
-- [Note] Mise à jour automatique du README (aedf934)
-- [Bug] Remplacement de l'emoji [Téléchargement] incompatible avec LaTeX (568fbca)
-- [Bug] Remplacement de l'emoji [Téléchargement] incompatible avec LaTeX (c064ff7)
-- [Note] Mise à jour automatique du README (ab729f7)
-- [Validé] Mise à jour complète du README avec export HTML + PDF (b3e0487)
+- [Bug] Fix des ancres LaTeX avec accents (44c39bc)
+- [Note] Mise à jour automatique du README (1bc7dff)
+- [Bug] Fix des ancres LaTeX avec accents (61324ff)
+- [Correction] Correction du workflow GitHub Actions (001d911)
+- [Package] Ajout des badges de téléchargement HTML et PDF (b817981)
 
 ---
 
 ## [Contributeurs {#contributeurs}] Contributeurs
 
-Aucun contributeur trouvé.
+- [LC-BONNET](https://github.com/LC-BONNET) (13 contributions)
+- [actions-user](https://github.com/actions-user) (2 contributions)
 
 ---
 
