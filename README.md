@@ -23,8 +23,8 @@
 - [[Lancement] Utilisation](utilisation)
 - [[Validé] TODO](todo)
 - [[Fichier] Licence](licence)
-- [[Fichier] Télécharger le PDF](#télécharger-le-pdf)
-- [[Fichier] Télécharger les versions du README](#télécharger-le-readme)
+- [[Fichier] Télécharger le PDF](telecharger-le-pdf)
+- [[Fichier] Télécharger les versions du README](telecharger-le-readme)
 
 ---
 
@@ -55,7 +55,11 @@
 
 Voici les dernières mises à jour du projet :
 
-Aucun commit trouvé.
+- [Note] Mise à jour automatique du README (aedf934)
+- [Bug] Remplacement de l'emoji [Téléchargement] incompatible avec LaTeX (568fbca)
+- [Bug] Remplacement de l'emoji [Téléchargement] incompatible avec LaTeX (c064ff7)
+- [Note] Mise à jour automatique du README (ab729f7)
+- [Validé] Mise à jour complète du README avec export HTML + PDF (b3e0487)
 
 ---
 

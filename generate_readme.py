@@ -27,7 +27,7 @@ def replace_emojis(content):
         "📝": "[Note]", "📜": "[Document]", "👥": "[Contributeurs]", "🚀": "[Lancement]",
         "✅": "[Validé]", "📄": "[Fichier]", "🐛": "[Bug]", "✨": "[Amélioration]",
         "🔧": "[Correction]", "🔑": "[Clé]", "💻": "[Ordinateur]", "🛠": "[Outil]",
-        "💾": "[Sauvegarde]", "📥": "[Téléchargement]"
+        "💾": "[Sauvegarde]", "📥": "[Téléchargement]", "📦": "[Package]"
     }
     for emoji, text in emoji_dict.items():
         content = content.replace(emoji, text)
@@ -137,8 +137,8 @@ def generate_readme():
         "- [🚀 Utilisation](#utilisation)\n"
         "- [✅ TODO](#todo)\n"
         "- [📄 Licence](#licence)\n"
-        "- [📄 Télécharger le PDF](#télécharger-le-pdf)\n"
-        "- [📄 Télécharger les versions du README](#télécharger-le-readme)\n\n"
+        "- [📄 Télécharger le PDF](#telecharger-le-pdf)\n"
+        "- [📄 Télécharger les versions du README](#telecharger-le-readme)\n\n"
         "---\n\n"
         "## 📂 Structure du projet\n"
         "```\n"
