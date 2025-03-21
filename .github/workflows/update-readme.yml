@@ -37,4 +37,5 @@ jobs:
           git pull origin main  # Évite les conflits
           git add README.md
           git commit -m "📝 Mise à jour automatique du README" || echo "Pas de changement"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/LC-BONNET/exemple-readme-auto.git main
+
