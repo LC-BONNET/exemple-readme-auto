@@ -1,8 +1,8 @@
-# 📁 exemple-readme-auto
+# [Dossier] exemple-readme-auto
 
 ![Mise à jour automatique du README](https://github.com/LC-BONNET/exemple-readme-auto/actions/workflows/update-readme.yml/badge.svg)
 
-> 🗓️ Généré automatiquement le 2025-03-21
+> [Calendrier]️ Généré automatiquement le 2025-03-21
 
 ![Stars](https://img.shields.io/github/stars/LC-BONNET/exemple-readme-auto?style=social)
 ![Forks](https://img.shields.io/github/forks/LC-BONNET/exemple-readme-auto?style=social)
@@ -14,21 +14,23 @@
 
 ---
 
-## 🧭 Sommaire
+## [Boussole] Sommaire
 
-- [📂 Structure du projet](#-structure-du-projet)
-- [📝 Description des fichiers](#-description-des-fichiers)
-- [📜 Changelog](#-changelog)
-- [👥 Contributeurs](#-contributeurs)
-- [🚀 Utilisation](#-utilisation)
-- [✅ TODO](#-todo)
-- [📄 Licence](#-licence)
+- [[Répertoire] Structure du projet](structure-du-projet)
+- [[Note] Description des fichiers](description-des-fichiers)
+- [[Document] Changelog](changelog)
+- [[Contributeurs] Contributeurs](contributeurs)
+- [[Lancement] Utilisation](utilisation)
+- [[Validé] TODO](todo)
+- [[Fichier] Licence](licence)
 
 ---
 
-## 📂 Structure du projet
+## [Répertoire] Structure du projet {#structure-du-projet}
 ```
+├── README.html
 ├── README.md  - Documentation principale du dépôt.
+├── README.pdf
 ├── generate_readme.py
 ├── main.py  - Point d'entrée principal du programme.
 └── requirements.txt  - Liste des dépendances Python.
@@ -36,7 +38,7 @@
 
 ---
 
-## 📝 Description des fichiers
+## [Note] Description des fichiers {#description-des-fichiers}
 
 | Fichier | Description |
 |--------|-------------|
@@ -47,33 +49,32 @@
 
 ---
 
-## 📜 Changelog
+## [Document] Changelog {#changelog}
 
 Voici les dernières mises à jour du projet :
 
-- 🔧 Ajout du badge contributeurs et dernière mise à jour (5158d9a)
-- 🔑 Activation des permissions GitHub Actions pour push (31b3833)
-- 🔧 Correction du workflow GitHub Actions (ba39c86)
-- 📝 Update (554ba73)
-- 📝 Ajout du README généré automatiquement (867e235)
+- [Note] Mise à jour automatique du README (a225ae4)
+- [Bug] Fix installation de requests pour GitHub Actions (1070ec0)
+- [Amélioration] Ajout du changelog, contributeurs et badges (942606f)
+- [Correction] Ajout du badge contributeurs et dernière mise à jour (5158d9a)
+- [Clé] Activation des permissions GitHub Actions pour push (31b3833)
 
 ---
 
-## 👥 Contributeurs
+## [Contributeurs {#contributeurs}] Contributeurs
 
-Merci aux contributeurs du projet :
-
-- [LC-BONNET](https://github.com/LC-BONNET) (7 contributions)
+- [LC-BONNET](https://github.com/LC-BONNET) (9 contributions)
+- [actions-user](https://github.com/actions-user) (1 contributions)
 
 ---
 
-## 🚀 Utilisation
+## [Lancement] Utilisation {#utilisation}
 
 Ajoutez ici les instructions pour lancer ou tester le projet.
 
 ---
 
-## ✅ TODO
+## [Validé] TODO {#todo}
 
 - [ ] Ajouter une documentation plus détaillée
 - [ ] Créer des tests unitaires
@@ -81,10 +82,10 @@ Ajoutez ici les instructions pour lancer ou tester le projet.
 
 ---
 
-## 📄 Licence
+## [Fichier] Licence {#licence}
 
 Aucune licence détectée.
 
 ---
 
-*Ce fichier README a été généré automatiquement avec 💻 Python.* 🛠️
+*Ce fichier README a été généré automatiquement avec [Ordinateur] Python.* [Outil]️
