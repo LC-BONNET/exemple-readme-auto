@@ -18,6 +18,10 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Installer les dépendances
+        run: |
+          pip install requests
+
       - name: Generate README
         run: |
           python generate_readme.py
