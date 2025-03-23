@@ -2,7 +2,7 @@
 
 ![Mise à jour automatique du README](https://github.com/LC-BONNET/exemple-readme-auto/actions/workflows/update-readme.yml/badge.svg)
 
-> [Calendrier]️ Généré automatiquement le 2025-03-22
+> [Calendrier]️ Généré automatiquement le 2025-03-23
 
 ![Stars](https://img.shields.io/github/stars/LC-BONNET/exemple-readme-auto?style=social)
 ![Forks](https://img.shields.io/github/forks/LC-BONNET/exemple-readme-auto?style=social)
@@ -55,18 +55,18 @@
 
 Voici les dernières mises à jour du projet :
 
+- [Note] Mise à jour automatique du README (3a4eb15)
 - [Note] Mise à jour automatique du README (5b95561)
 - [Bug] Fix des ancres LaTeX avec accents (44c39bc)
 - [Note] Mise à jour automatique du README (1bc7dff)
 - [Bug] Fix des ancres LaTeX avec accents (61324ff)
-- [Correction] Correction du workflow GitHub Actions (001d911)
 
 ---
 
 ## [Contributeurs {#contributeurs}] Contributeurs
 
 - [LC-BONNET](https://github.com/LC-BONNET) (18 contributions)
-- [actions-user](https://github.com/actions-user) (5 contributions)
+- [actions-user](https://github.com/actions-user) (6 contributions)
 
 ---
 
