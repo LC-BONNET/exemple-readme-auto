@@ -2,7 +2,7 @@
 
 ![Mise à jour automatique du README](https://github.com/LC-BONNET/exemple-readme-auto/actions/workflows/update-readme.yml/badge.svg)
 
-> [Calendrier]️ Généré automatiquement le 2025-07-31
+> [Calendrier]️ Généré automatiquement le 2025-08-01
 
 ![Stars](https://img.shields.io/github/stars/LC-BONNET/exemple-readme-auto?style=social)
 ![Forks](https://img.shields.io/github/forks/LC-BONNET/exemple-readme-auto?style=social)
@@ -55,17 +55,17 @@
 
 Voici les dernières mises à jour du projet :
 
+- [Note] Mise à jour automatique du README (2dc5f21)
 - [Note] Mise à jour automatique du README (2fda467)
 - [Note] Mise à jour automatique du README (0dfac85)
 - [Note] Mise à jour automatique du README (7d3f367)
 - [Note] Mise à jour automatique du README (d7e2b32)
-- [Note] Mise à jour automatique du README (1df36ea)
 
 ---
 
 ## [Contributeurs {#contributeurs}] Contributeurs
 
-- [actions-user](https://github.com/actions-user) (111 contributions)
+- [actions-user](https://github.com/actions-user) (112 contributions)
 - [LC-BONNET](https://github.com/LC-BONNET) (18 contributions)
 
 ---
